@@ -1,0 +1,209 @@
+h2	{
+color: #8EC782;
+font-size: 25px;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	color: #8EC782;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	color: #8EC782;
+}
+
+.banner h1{
+	padding: 5px;
+}
+
+
+.coucou {
+	margin: 0px;
+background-image: url('images/epinard.jpg');
+	margin-bottom: 0px;
+}
+
+
+.coucou2 {
+	margin: 0px;
+	background-color: #c5d7bd ;
+	margin-bottom: 0px;
+}
+
+.réseaux {
+	margin: 0px;
+	background-color: #c5d7bd ;
+	margin-bottom: 0px;
+}
+
+.banner {
+	color: #8EC782;
+	font-size: 40;
+	text-align: center;
+	background-position: center;
+	width: 300px;
+	background-color: white;
+	margin: 0px;
+	padding: 0.01px;
+	border-radius: 4px;
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+	margin-left: 450px;
+}
+
+.text {
+	background-color: white;
+	text-align: center;
+	background-repeat: no-repeat;
+	width: 500px;
+	padding: 0.5px;
+	border-radius: 4px;
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+	box-sizing: 30%;
+	margin-left: 350px;
+	margin-bottom: 50px;
+	color: #8EC782;
+}
+
+.valeurs {
+	text-align: center;
+	margin: 10px;
+}
+
+.valeurs h3{
+	padding-top:-10;
+}
+
+
+.social {
+	text-align: center;
+	margin: 10px;
+}
+
+.social p {
+	text-align: center;
+	font-size: 13;
+	padding: 10px;
+	margin: 25px;
+}
+
+
+.valeurs p {
+	text-align: center;
+	font-size: 13;
+	padding: 10px;
+	margin: 25px;
+}
+
+#social {
+	padding: 32px;
+	}
+
+.groupe {
+	display: grid;
+	grid-template-columns: 1fr 1fr
+}
+
+.en-savoir-plus {
+	background: white;
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	border-bottom-color: #8EC782;
+	margin: 0px;
+	flex-grow: 1;
+	color: #8EC782;
+	padding: 5px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.en-savoir-plus h3 {
+color: #8EC782;
+font-size: 20;
+text-align: center;
+}
+
+.groupe h3 {
+font-size: 15;
+}
+
+
+.en-savoir-plus p {
+color: grey;
+}
+
+.réseaux {
+	list-style: none;
+	padding-left: 0px;
+	text-align: center;
+}
+
+.réseaux li {
+	display: inline;
+	padding: 15px;
+	font-size: 35px;
+	margin: 10px;
+	}
+
+a 	{
+	text-decoration: none; 
+	color: white;
+	}
+
+a:hover {
+	color: black;
+	}
+
+.photo1 {
+	padding: 10px;
+	margin-left: 350px;
+	margin-right: 350px;
+	background-color: #c5d7bd;
+	text-align: center;
+	padding-bottom: 150px;
+	padding-top: 150px;
+	margin-bottom: 50px;
+	background-image: url('images/potager-black-small.png');
+	color: white;
+	}
+
+.photo2 {
+	padding: 10px;
+	margin-left: 350px;
+	margin-right: 350px;
+	background-color: #c5d7bd;
+	text-align: center;
+	padding-bottom: 150px;
+	padding-top: 150px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	background-image: url('images/panier-legumes-black-small.png');
+	color: white;
+	}
+
+.photo3 {
+	padding: 10px;
+	margin-left: 350px;
+	margin-right: 350px;
+	background-color: #c5d7bd;
+	text-align: center;
+	padding-bottom: 150px;
+	padding-top: 150px;
+	margin-top: 50px;
+	background-image: url('images/recettes-black-small.png');
+	color: white;
+	} 
+
+
+@media (max-width: 960px) {
+  .all {width: 700px}
+}
+
+@media (max-width: 720px) {
+  .all {width: 500px}
+}
+
+@media (max-width: 540px) {
+  .all {width: 300px}
+}
